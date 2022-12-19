@@ -18,7 +18,7 @@ public class ValidPassword {
 	public static void main(String[] args) {
 		String email = "bridgelabz218";
 		boolean isPasswordValid = checkValidPassword(email);
-		if (isPasswordValid) {
+		if (isPasswordValid){
 			System.out.println(email + " is valid");
 		} else {
 			System.out.println(email + " is not valid");
